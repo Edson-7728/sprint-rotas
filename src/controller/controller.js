@@ -1,7 +1,7 @@
 const contr = (app, dados) => {
 app.get ('/tips', (req, res) => {
     res.json ({
-        "tip": dados.tips[Math.floor(Math.random() * dados.tips.length)]
+        "tip": dados.tips [Math.floor(Math.random() * dados.tips.length)]
     })
 })
 
